@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+}
+</head>
+	
+<title>Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+        <h1>CozyCafe</h1>
+	<div class="logo">
+	<img src="images/coffee.jpg" alt="interior" width="500">
+	</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to CozyCafe!</h2>
+        <p>Bakery treasures that bring joy to every taste bud.</p>
+    </section>
+	
+	<section id="look">
+		<center><h2> Interior look</h2></center>
+	<img src="images/interior.jpg" alt="interior" width="500">
+		<img src="images/another room.jpg" alt="another room" width="500">
+		
+		
+		
+		<center><h2> Exterior look</h2></center>
+	<img src="images/exterior.jpg" alt="exterrior" width="500">
+		<img src="images/another room.jpg" alt="another room" width="500">
+
+
+    <section id="products">
+      <center><h2>Our Products</h2></center>
+        <div class="product" onclick="showProductDetails('product1')">
+			<br>
+		  <h3>Healthy Beverages</h3>
+			 <img src="images/beverage.jpeg" alt="beverage" width="200">
+            <p>All types of healthy and fresh beverage at 10$ .</p>
+        </div>
+		<br>
+        <div class="product" onclick="showProductDetails('product2')">
+          <h3>Cookies</h3>
+			<img src="images/lunch.jpg" alt="lunch" width="200">
+            <p>Delicious Lunch at 15$ only</p>
+        </div>
+		<br>
+        <div class="product" onclick="showProductDetails('product3')">
+          <h3>Healthy breakfast</h3>
+			
+			<img src="images/breakfast.jpg" alt="breakfast" width="200">
+            <p>Breakfast that incldes chicken with salad at just 20$.</p>
+			
+	
+        </div>
+</section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+CozyCafe is your go-to destination for freshly baked delights crafted with passion and precision. Nestled in the heart of the city, our bakery offers a diverse range of artisanal breads, delectable pastries, and gourmet cakes made from the finest ingredients. Whether you crave a classic croissant, a savory loaf, or a bespoke celebration cake, Urban Bakery blends traditional baking techniques with contemporary flavors to bring you an unforgettable taste experience. Indulge in the warmth and aroma of our bakery, where every bite is a journey of pure culinary bliss..</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+			
+			<center><a href="url">www.CozyCafe.com</a></center
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+	
+
+
+    <footer>
+        <p>&copy; 2024 Food Brand. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
